@@ -1,1 +1,17 @@
-node_modules
+# .dockerignore
+
+# Ignore Yarn artifacts
+**/node_modules
+yarn-error.log
+yarn.lock
+
+# Ignore TurboRepo artifacts
+.turborepo
+
+# Ignore other unnecessary files
+.DS_Store
+.env
+.git
+.idea
+.vscode
+*.log
